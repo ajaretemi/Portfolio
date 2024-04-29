@@ -1,0 +1,48 @@
+/* Additional Styles for Header Content */
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-details h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+}
+
+/* Custom CSS for styling */
+.profile-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* To make it circular */
+}
+
+.name-title {
+    margin-top: 10px; /* Adjust spacing */
+}
+
+/* Style for dropdown headings */
+.dropdown-heading {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* Style for dropdown content */
+.dropdown-content {
+    display: none;
+}
